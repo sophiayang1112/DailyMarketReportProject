@@ -1,0 +1,59 @@
+name: Daily cross-asset market report
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0 * * 2-6'
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install project
+        run: python -m pip install -e .
+      - name: Verify calculations and data integrity
+        run: python -m unittest discover -s tests -v
+      - name: Generate labeled fixture report
+        run: market-report --mode sample --as-of 2026-11-01T18:00:00Z --strict --output output/sample
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-report-example
+          path: output/sample/
+          retention-days: 7
+  daily:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install project
+        run: python -m pip install -e .
+      - name: Generate scheduled daily brief
+        if: github.event_name == 'schedule'
+        run: market-report --mode live --fred-live --strict --skip-closed-day --output output/daily
+      - name: Generate on-demand daily brief
+        if: github.event_name == 'workflow_dispatch'
+        run: market-report --mode live --fred-live --strict --output output/daily
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-market-report
+          path: output/daily/
+          if-no-files-found: ignore
+          retention-days: 14

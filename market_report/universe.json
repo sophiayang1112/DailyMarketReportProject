@@ -1,0 +1,394 @@
+[
+  {
+    "symbol": "SPY",
+    "name": "S&P 500 ETF",
+    "asset_class": "equity_benchmarks",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "QQQ",
+    "name": "Nasdaq 100 ETF",
+    "asset_class": "equity_benchmarks",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "IWM",
+    "name": "US small-cap ETF",
+    "asset_class": "equity_benchmarks",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "VEA",
+    "name": "Developed ex-US equity ETF",
+    "asset_class": "equity_benchmarks",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "VWO",
+    "name": "Emerging markets equity ETF",
+    "asset_class": "equity_benchmarks",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLK",
+    "name": "Technology sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Technology",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLF",
+    "name": "Financials sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Financials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLE",
+    "name": "Energy sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Energy",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLV",
+    "name": "Health Care sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Health Care",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLI",
+    "name": "Industrials sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Industrials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLY",
+    "name": "Consumer Discretionary sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Consumer Discretionary",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLP",
+    "name": "Consumer Staples sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Consumer Staples",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLB",
+    "name": "Materials sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Materials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLU",
+    "name": "Utilities sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Utilities",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLRE",
+    "name": "Real Estate sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Real Estate",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XLC",
+    "name": "Communication Services sector ETF",
+    "asset_class": "equity_sectors",
+    "kind": "etf",
+    "sector": "Communication Services",
+    "unit": "USD"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Technology",
+    "unit": "USD"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Technology",
+    "unit": "USD"
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Financials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Energy",
+    "unit": "USD"
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Health Care",
+    "unit": "USD"
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Industrials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Consumer Discretionary",
+    "unit": "USD"
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Consumer Staples",
+    "unit": "USD"
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Materials",
+    "unit": "USD"
+  },
+  {
+    "symbol": "NEE",
+    "name": "NextEra Energy",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Utilities",
+    "unit": "USD"
+  },
+  {
+    "symbol": "PLD",
+    "name": "Prologis",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Real Estate",
+    "unit": "USD"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet",
+    "asset_class": "equity_watchlist",
+    "kind": "stock",
+    "sector": "Communication Services",
+    "unit": "USD"
+  },
+  {
+    "symbol": "BIL",
+    "name": "1-3 month Treasury bill ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "SHY",
+    "name": "1-3 year Treasury ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "IEF",
+    "name": "7-10 year Treasury ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "TLT",
+    "name": "20+ year Treasury ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "TIP",
+    "name": "Inflation-protected Treasury ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "LQD",
+    "name": "Investment-grade corporate bond ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "HYG",
+    "name": "High-yield corporate bond ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "EMB",
+    "name": "USD emerging market sovereign bond ETF",
+    "asset_class": "fixed_income",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "EURUSD=X",
+    "name": "EUR/USD",
+    "asset_class": "currencies",
+    "kind": "fx",
+    "sector": "",
+    "unit": "USD per EUR"
+  },
+  {
+    "symbol": "JPY=X",
+    "name": "USD/JPY",
+    "asset_class": "currencies",
+    "kind": "fx",
+    "sector": "",
+    "unit": "JPY per USD"
+  },
+  {
+    "symbol": "CNY=X",
+    "name": "USD/CNY",
+    "asset_class": "currencies",
+    "kind": "fx",
+    "sector": "",
+    "unit": "CNY per USD"
+  },
+  {
+    "symbol": "DX-Y.NYB",
+    "name": "US Dollar Index",
+    "asset_class": "currencies",
+    "kind": "fx",
+    "sector": "",
+    "unit": "index points"
+  },
+  {
+    "symbol": "GC=F",
+    "name": "Gold continuous futures",
+    "asset_class": "commodities",
+    "kind": "futures",
+    "sector": "",
+    "unit": "USD per troy oz"
+  },
+  {
+    "symbol": "SI=F",
+    "name": "Silver continuous futures",
+    "asset_class": "commodities",
+    "kind": "futures",
+    "sector": "",
+    "unit": "USD per troy oz"
+  },
+  {
+    "symbol": "CL=F",
+    "name": "WTI crude continuous futures",
+    "asset_class": "commodities",
+    "kind": "futures",
+    "sector": "",
+    "unit": "USD per barrel"
+  },
+  {
+    "symbol": "NG=F",
+    "name": "Natural gas continuous futures",
+    "asset_class": "commodities",
+    "kind": "futures",
+    "sector": "",
+    "unit": "USD per MMBtu"
+  },
+  {
+    "symbol": "HG=F",
+    "name": "Copper continuous futures",
+    "asset_class": "commodities",
+    "kind": "futures",
+    "sector": "",
+    "unit": "USD per lb"
+  },
+  {
+    "symbol": "VNQ",
+    "name": "US listed real estate ETF",
+    "asset_class": "listed_alternatives",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "BIZD",
+    "name": "Listed business development company ETF",
+    "asset_class": "listed_alternatives",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "IBIT",
+    "name": "Spot bitcoin exposure ETF",
+    "asset_class": "listed_alternatives",
+    "kind": "etf",
+    "sector": "",
+    "unit": "USD"
+  },
+  {
+    "symbol": "^VIX",
+    "name": "Cboe VIX index",
+    "asset_class": "risk_indicators",
+    "kind": "index",
+    "sector": "",
+    "unit": "volatility points"
+  }
+]
